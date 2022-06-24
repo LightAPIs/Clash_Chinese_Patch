@@ -978,7 +978,6 @@ Destination:=目标:
 Chains:=链路:
 "Pause"="暂停"
 "Resume"="恢复"
-"search"="筛选"
 ##v0.15.0
 
 ###v0.15.2
@@ -1146,14 +1145,11 @@ Traffic:=流量:
 hide)"=隐藏)"
 "test latency"="测试延迟"
 "show or hide proxies"="显示或隐藏代理"
-"edit"="编辑"
 "edit policies"="修改策略"
 "edit rules"="修改规则"
 "duplicate profile"="复制为新的配置"
 hint:"URL"=hint:"显示URL和二维码"
 "matching parsers"="预处理配置信息"
-"settings"="修改配置信息"
-"refresh"="更新此配置"
 hint:"delete"=hint:"删除此配置"
 "Make sure you have "="请确认你已经 "
 serviceNeedUpdate?"updated":"installed"=serviceNeedUpdate?"更新":"安装"
@@ -2127,3 +2123,13 @@ message:"Do you want to set a new uuidv4 secret in Home Directory/config.yaml an
 e._v("Tray Proxy Groups Style")=e._v("托盘代理组样式")
 "Submenu","Hidden"="子菜单","隐藏"
 #0.19.19-end
+
+#0.19.22
+attrs:{type:"text",placeholder:"search"}=attrs:{type:"text",placeholder:"筛选"}
+attrs:{hint:"terminal"}=attrs:{hint:"终端"}
+"Network Interfaces"="网络接口"
+"Network interfaces"="网络接口"
+[e._v("Address:")]=[e._v("地址:")]
+[e._v("Netmask:")]=[e._v("子网掩码:")]
+"Process Path"="进程路径"
+#0.19.22-end
