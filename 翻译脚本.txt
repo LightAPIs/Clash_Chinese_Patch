@@ -2133,3 +2133,7 @@ attrs:{hint:"terminal"}=attrs:{hint:"终端"}
 [e._v("Netmask:")]=[e._v("子网掩码:")]
 "Process Path"="进程路径"
 #0.19.22-end
+
+#0.19.23
+"Show Process If Present"="显示进程(如果存在)"
+#0.19.23-end
